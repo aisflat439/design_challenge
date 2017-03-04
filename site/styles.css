@@ -27,7 +27,7 @@ body {
   align-items: center;
 }
 
-.navbar--title__brand h1, div{
+.navbar--title__brand, h1{
   padding: 0;
   margin: 0;
   font-size: 28px;
@@ -56,6 +56,7 @@ body {
   color: #323232;
   font-size: 22px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .navbar--base {
   display: flex;
@@ -78,3 +79,66 @@ body {
 .navbar--base__bar:nth-child(4n+3) {
   background-color: red;
 }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content__row {
+  display: flex;
+}
+/*Begin JumboTron*/
+.main-content__jumbotron {
+  height: 450px;
+  width: 100%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.7)),
+    url('../design-challenge/images/city.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content__jumbotron--content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25%;
+}
+
+.main-content__jumbotron--content-header {
+  display: flex;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.main-content__jumbotron--separator {
+  width: 40%;
+  height: 5px;
+  background-color: orange;
+}
+
+.main-content__jumbotron--content-tagline {
+  color: #7f7f7f;
+  font-size: 22px;
+}
+
+.main-content__jumbotron--link {
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  font-size: 40px;
+  height: 55px;
+  padding: 0 15px 0 15px;
+}
+/*
+
+.main-content__jumbotron--content {
+  padding: 0;
+}*/
