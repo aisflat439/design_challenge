@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="styles.css" media="screen" title="no title">
-    <script type="text/javascript" href="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
 
@@ -68,18 +68,22 @@
         <div class="main-content__row">
           <div class="sub-content__section">
             <div class="sub-content__section--content">
-              <h3>Nulam Hendrick Mi Nunc</h3>
+              <h2>Nulam Hendrick Mi Nunc</h2>
               <div class="sub-content__section--separator"></div>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a class="sub-content__section--link" href="#">Learn more</a>
+              <div class="sub-content__section--link">
+                <a href="#">Learn more</a>
+              </div>
             </div>
           </div>
           <div class="sub-content__section">
             <div class="sub-content__section--content">
-              <h3>Vehiuca Hendrick Mi</h3>
+              <h2>Vehiuca Hendrick Mi</h2>
               <div class="sub-content__section--separator"></div>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <a class="sub-content__section--link" href="#">Learn more</a>
+              <div class="sub-content__section--link">
+                <a href="#">Learn more</a>
+              </div>
             </div>
           </div>
         </div>
@@ -90,6 +94,31 @@
       <div class="main-content__row">
         three
       </div>
+      <section>
+        <div class="main-content__row">
+          <div class="message-us__section">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+
+            <form class="" action="index.html" method="post">
+              <label for="">Name</label>
+              <input type="text" id="name" value="">
+              <label for="">Email</label>
+              <input type="email" id="email" value="">
+              <label for="">I'm interested in...</label>
+              <select>
+                <option value="">Estegas Ubutu Estata</option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
+            </form>
+            <button id="contactFormButton" type="submit" name="button">Submit</button>
+            <div class="message-us__section--response">
+              <h3>Thanks for reaching out <span id="response--name"></span></h3>
+              <p>Your message of "<span id="response--message"></span>" was recieved and we will be getting back to you shortly at "<span id="response--email"></span>". Thanks!</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <footer>

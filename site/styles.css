@@ -86,6 +86,7 @@ body {
 }
 
 .main-content__row {
+  height: 375px;
   display: flex;
 }
 /*Begin JumboTron*/
@@ -139,7 +140,6 @@ body {
 }
 
 .sub-content__section {
-  height: 375px;
   display: flex;
   flex: 1;
   justify-content: center;
@@ -163,7 +163,7 @@ body {
   flex-direction: column;
 }
 
-.sub-content__section--content h3{
+.sub-content__section--content h2{
   padding: 0;
   margin: 0;
   color: white;
@@ -187,15 +187,21 @@ body {
 }
 
 .sub-content__section--link {
-  text-decoration: none;
-  color: orange;
   background-color: white;
-  font-size: 40px;
   height: 55px;
   padding: 0 15px 0 15px;
 }
-/*
 
-.main-content__jumbotron--content {
-  padding: 0;
-}*/
+.sub-content__section--link a {
+  text-decoration: none;
+  color: orange;
+  font-size: 40px;
+}
+
+.message-us__section {
+  flex: 1;
+  background-color: lightgrey;
+}
+.message-us__section--response {
+  display: none;
+}
