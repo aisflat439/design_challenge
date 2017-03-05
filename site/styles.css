@@ -137,6 +137,22 @@ body {
   height: 55px;
   padding: 0 15px 0 15px;
 }
+
+.sub-content__section {
+  height: 375px;
+  flex: 1;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.7)),
+    url('../design-challenge/images/bear.jpg');
+}
+
+.sub-content__section:last-of-type {
+  background: linear-gradient(
+    rgba(255, 153, 0, 0.7),
+    rgba(255, 153, 0, 0.7)),
+    url('../design-challenge/images/hot-air-ballon.jpg');
+}
 /*
 
 .main-content__jumbotron--content {
