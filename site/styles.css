@@ -140,18 +140,59 @@ body {
 
 .sub-content__section {
   height: 375px;
+  display: flex;
   flex: 1;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)),
-    url('../design-challenge/images/bear.jpg');
+    rgba(46, 138, 187, 0.7),
+    rgba(46, 138, 187, 0.7)),
+    url('../design-challenge/images/bear.jpg') center / cover;
 }
 
-.sub-content__section:last-of-type {
+.sub-content__section:last-child {
   background: linear-gradient(
     rgba(255, 153, 0, 0.7),
     rgba(255, 153, 0, 0.7)),
-    url('../design-challenge/images/hot-air-ballon.jpg');
+    url('../design-challenge/images/hot-air-balloon.jpg') center / cover;
+}
+
+.sub-content__section--content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sub-content__section--content h3{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.sub-content__section--separator {
+  width: 40%;
+  height: 5px;
+  background-color: white;
+}
+
+.sub-content__section--content p{
+  margin-top: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sub-content__section--link {
+  text-decoration: none;
+  color: orange;
+  background-color: white;
+  font-size: 40px;
+  height: 55px;
+  padding: 0 15px 0 15px;
 }
 /*
 
